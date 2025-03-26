@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Work - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <span class="logo__text">Portfolio</span>
+        </a>
+        
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="index.html#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="index.html#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="index.html#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="work.html" class="nav-link active">Work</a></li>
+        </ul>
+        
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        
+        <div class="theme-toggle">
+          <i class="fas fa-sun theme-toggle__icon"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-header__title">My Work</h1>
+        <div class="breadcrumbs">
+          <a href="index.html" class="breadcrumbs__link">Home</a>
+          <span class="breadcrumbs__separator">/</span>
+          <span class="breadcrumbs__current">Work</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio section">
+      <div class="container">
+        <div class="portfolio__filter">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web Design</button>
+          <button class="filter-btn" data-filter="ui">UI/UX</button>
+          <button class="filter-btn" data-filter="app">App Design</button>
+          <button class="filter-btn" data-filter="branding">Branding</button>
+        </div>
+        
+        <div class="portfolio__grid">
+          <div class="portfolio-item" data-category="web ui">
+            <div class="portfolio-item__image">
+              <img src="https://placehold.co/600x400?text=E-Learning+Platform" alt="E-Learning Platform" class="portfolio-item__img">
+              <div class="portfolio-item__overlay">
+                <div class="portfolio-item__overlay-content">
+                  <h3 class="portfolio-item__title">E-Learning Platform</h3>
+                  <p class="portfolio-item__category">Web Design, UI/UX</p>
+                  <a href="#project-1" class="portfolio-item__link">
+                    <i class="fas fa-eye"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="portfolio-item" data-category="ui app">
+            <div class="portfolio-item__image">
+              <img src="https://placehold.co/600x400?text=Finance+App" alt="Finance App" class="portfolio-item__img">
+              <div class="portfolio-item__overlay">
+                <div class="portfolio-item__overlay-content">
+                  <h3 class="portfolio-item__title">Finance Mobile App</h3>
+                  <p class="portfolio-item__category">UI/UX, App Design</p>
+                  <a href="#project-2" class="portfolio-item__link">
+                    <i class="fas fa-eye"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="portfolio-item" data-category="web">
+            <div class="portfolio-item__image">
+              <img src="https://placehold.co/600x400?text=E-commerce+Website" alt="E-commerce Website" class="portfolio-item__img">
+              <div class="portfolio-item__overlay">
+                <div class="portfolio-item__overlay-content">
+                  <h3 class="portfolio-item__title">E-commerce Website</h3>
+                  <p class="portfolio-item__category">Web Design</p>
+                  <a href="#project-3" class="portfolio-item__link">
+                    <i class="fas fa-eye"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="portfolio-item" data-category="ui app">
+            <div class="portfolio-item__image">
+              <img src="https://placehold.co/600x400?text=Health+Tracker+App" alt="Health Tracker App" class="portfolio-item__img">
+              <div class="portfolio-item__overlay">
+                <div class="portfolio-item__overlay-content">
+                  <h3 class="portfolio-item__title">Health Tracker App</h3>
+                  <p class="portfolio-item__category">UI/UX, App Design</p>
+                  <a href="#project-4" class="portfolio-item__link">
+                    <i class="fas fa-eye"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="portfolio-item" data-category="web ui">
+            <div class="portfolio-item__image">
+              <img src="https://placehold.co/600x400?text=Portfolio+Website" alt="Portfolio Website" class="portfolio-item__img">
+              <div class="portfolio-item__overlay">
+                <div class="portfolio-item__overlay-content">
+                  <h3 class="portfolio-item__title">Portfolio Website</h3>
+                  <p class="portfolio-item__category">Web Design, UI/UX</p>
+                  <a href="#project-5" class="portfolio-item__link">
+                    <i class="fas fa-eye"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="portfolio-item" data-category="branding">
+            <div class="portfolio-item__image">
+              <img src="https://placehold.co/600x400?text=Brand+Identity" alt="Brand Identity" class="portfolio-item__img">
+              <div class="portfolio-item__overlay">
+                <div class="portfolio-item__overlay-content">
+                  <h3 class="portfolio-item__title">Tech Startup Branding</h3>
+                  <p class="portfolio-item__category">Branding</p>
+                  <a href="#project-6" class="portfolio-item__link">
+                    <i class="fas fa-eye"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="portfolio-item" data-category="web">
+            <div class="portfolio-item__image">
+              <img src="https://placehold.co/600x400?text=Travel+Blog" alt="Travel Blog" class="portfolio-item__img">
+              <div class="portfolio-item__overlay">
+                <div class="portfolio-item__overlay-content">
+                  <h3 class="portfolio-item__title">Travel Blog</h3>
+                  <p class="portfolio-item__category">Web Design</p>
+                  <a href="#project-7" class="portfolio-item__link">
+                    <i class="fas fa-eye"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="portfolio-item" data-category="app ui">
+            <div class="portfolio-item__image">
+              <img src="https://placehold.co/600x400?text=Social+Media+App" alt="Social Media App" class="portfolio-item__img">
+              <div class="portfolio-item__overlay">
+                <div class="portfolio-item__overlay-content">
+                  <h3 class="portfolio-item__title">Social Media App</h3>
+                  <p class="portfolio-item__category">App Design, UI/UX</p>
+                  <a href="#project-8" class="portfolio-item__link">
+                    <i class="fas fa-eye"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="portfolio-item" data-category="branding ui">
+            <div class="portfolio-item__image">
+              <img src="https://placehold.co/600x400?text=Restaurant+Branding" alt="Restaurant Branding" class="portfolio-item__img">
+              <div class="portfolio-item__overlay">
+                <div class="portfolio-item__overlay-content">
+                  <h3 class="portfolio-item__title">Restaurant Branding</h3>
+                  <p class="portfolio-item__category">Branding, UI/UX</p>
+                  <a href="#project-9" class="portfolio-item__link">
+                    <i class="fas fa-eye"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Project Detail Sections -->
+    <section id="project-1" class="project-detail section">
+      <div class="container">
+        <div class="project-detail__header">
+          <h2 class="project-detail__title">E-Learning Platform</h2>
+          <p class="project-detail__category">Web Design, UI/UX</p>
+        </div>
+        
+        <div class="project-detail__content">
+          <div class="project-detail__gallery">
+            <div class="project-detail__main-image">
+              <img src="https://placehold.co/1200x800?text=E-Learning+Platform+Main" alt="E-Learning Platform" class="project-detail__img">
+            </div>
+            
+            <div class="project-detail__thumbnails">
+              <img src="https://placehold.co/400x300?text=Thumbnail+1" alt="Thumbnail 1" class="project-detail__thumbnail">
+              <img src="https://placehold.co/400x300?text=Thumbnail+2" alt="Thumbnail 2" class="project-detail__thumbnail">
+              <img src="https://placehold.co/400x300?text=Thumbnail+3" alt="Thumbnail 3" class="project-detail__thumbnail">
+              <img src="https://placehold.co/400x300?text=Thumbnail+4" alt="Thumbnail 4" class="project-detail__thumbnail">
+            </div>
+          </div>
+          
+          <div class="project-detail__info">
+            <div class="project-detail__description">
+              <h3>Project Overview</h3>
+              <p>This comprehensive e-learning platform was designed to provide an intuitive and engaging learning experience for students across various disciplines. The project involved creating a responsive interface that works seamlessly across devices while maintaining a focus on content accessibility and user engagement.</p>
+              
+              <p>The design incorporates modern UI principles with a clean, distraction-free layout that helps students focus on their learning materials. Special attention was given to the course navigation system, video player interface, and interactive quiz components to enhance the learning experience.</p>
+            </div>
+            
+            <div class="project-detail__meta">
+              <div class="project-meta">
+                <h4 class="project-meta__title">Client</h4>
+                <p class="project-meta__value">EduTech Innovations</p>
+              </div>
+              
+              <div class="project-meta">
+                <h4 class="project-meta__title">Date</h4>
+                <p class="project-meta__value">January 2024</p>
+              </div>
+              
+              <div class="project-meta">
+                <h4 class="project-meta__title">Skills</h4>
+                <p class="project-meta__value">UI/UX Design, HTML/CSS, JavaScript, SCSS</p>
+              </div>
+              
+              <div class="project-meta">
+                <h4 class="project-meta__title">Live Demo</h4>
+                <p class="project-meta__value"><a href="#" class="project-meta__link">View Site</a></p>
+              </div>
+            </div>
+            
+            <div class="project-detail__challenges">
+              <h3>Challenges & Solutions</h3>
+              <div class="challenge-item">
+                <h4 class="challenge-item__title">Responsive Video Player</h4>
+                <p class="challenge-item__description">Created a custom video player that maintains optimal viewing experience across all devices while providing intuitive controls for learners.</p>
+              </div>
+              
+              <div class="challenge-item">
+                <h4 class="challenge-item__title">Progress Tracking</h4>
+                <p class="challenge-item__description">Implemented a visual progress tracking system that motivates students by showing their course completion status and achievements.</p>
+              </div>
+              
+              <div class="challenge-item">
+                <h4 class="challenge-item__title">Accessibility</h4>
+                <p class="challenge-item__description">Ensured the platform meets WCAG 2.1 standards with proper contrast ratios, keyboard navigation, and screen reader compatibility.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-navigation">
+          <a href="#project-9" class="project-navigation__link project-navigation__link--prev">
+            <i class="fas fa-arrow-left"></i> Previous Project
+          </a>
+          <a href="#project-2" class="project-navigation__link project-navigation__link--next">
+            Next Project <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+        
+    <!-- Additional project sections would go here similar to project-1 -->
+    
+    <!-- CTA Section -->
+    <!-- <section class="cta section section--alt">
+      <div class="container">
+        <div class="cta__content">
+          <h2 class="cta__title">Interested in working together?</h2>
+          <p class="cta__text">Let's discuss your project and bring your ideas to life!</p>
+          <a href="index.html#contact" class="btn btn--primary">Get In Touch</a>
+        </div>
+      </div>
+    </section> -->
+    <section id="contact" class="contact section-dark">
+        <div class="container">
+          <h2 class="section-title">GET IN TOUCH</h2>
+          
+          <div class="contact__content">
+            <div class="contact__info">
+              <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+              
+              <div class="contact-details">
+                <div class="contact-item">
+                  <i class="fas fa-envelope"></i>
+                  <a href="mailto:anaghagodbole10@gmail.com">anaghagodbole10@gmail.com</a>
+                </div>
+                
+                <div class="contact-item">
+                  <i class="fas fa-phone"></i>
+                  <a href="tel:+18573398475">857-339-8475</a>
+                </div>
+                
+                <div class="contact-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Boston, MA</span>
+                </div>
+              </div>
+              
+              <div class="social-links">
+                <a href="https://linkedin.com/in/anaghagodbole" target="_blank" class="social-link">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/anaghagodbole" target="_blank" class="social-link">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  </main>
+
+  <!-- <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__brand">
+          <a href="index.html" class="logo">
+            <span class="logo__text">Portfolio</span>
+          </a>
+          <p class="footer__text">Creating beautiful digital experiences that engage and inspire.</p>
+        </div>
+        
+            <div class="footer__links">
+                <div class="footer__link-group">
+                  <h3 class="footer__link-title">Quick Links</h3>
+                  <ul class="footer__link-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#skills">Skills</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                  </ul>
+                </div>
+                
+                <div class="footer__link-group">
+                  <h3 class="footer__link-title">Resources</h3>
+                  <ul class="footer__link-list">
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Tutorials</a></li>
+                    <li><a href="#">Downloads</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div class="footer__bottom">
+              <p class="footer__copyright">&copy; 2025 Alex Smith. All rights reserved.</p>
+              <div class="footer__socials">
+                <a href="#" class="social-link">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="social-link">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-link">
+                  <i class="fab fa-dribbble"></i>
+                </a>
+                <a href="#" class="social-link">
+                  <i class="fab fa-behance"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </footer> -->
+        <footer class="site-footer">
+            <div class="container">
+              <p>&copy; 2025 Anagha Godbole. All Rights Reserved.</p>
+            </div>
+          </footer>
+        <script src="js/main.js"></script>
+      </body>
+    </html>

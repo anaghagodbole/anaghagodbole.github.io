@@ -1,328 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anagha Godbole - My Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
-    <link rel="icon" type="image/x-icon" href="assets/portfolio-favicon.jpg" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anagha Godbole - Portfolio</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="site-header__logo">Anagha Godbole</a>
+      
+      <nav class="site-header__nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
+          <li class="nav-item"><a href="#work" class="nav-link">WORK</a></li>
+          <li class="nav-item"><a href="assets/Anagha_Godbole_Resume.pdf" target="_blank" class="nav-link">RESUME</a></li>
+          <li class="nav-item"><a href="#site-footer" class="nav-link">CONTACT</a></li>
         </ul>
       </nav>
-    </header>
 
-    <div class="container">
-      <div class="background-image-overlay">
-        <img src="assets/portfolio_bg.jpeg" alt="Background" />
+      <!-- <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button> -->
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="star-field">
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
       </div>
-      <div class="image-section">
-        <img
-          src="assets/profile-picture.jpg"
-          alt="Anagha Godbole"
-          class="profile-image"
-        />
+      
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Hi, I'm Anagha&mdash;An insights-driven full stack developer building scalable and innovative digital solutions.
+          </h1>
+        </div>
       </div>
+      
+      <div class="scroll-indicator">
+        <div class="line"></div>
+        <p>ABOUT ME</p>
+      </div>
+    </section>
 
-      <div class="info-section">
-        <h1>Hi, I'm Anagha</h1>
-        <p class="subtitle">Master's Student at NEU | Full Stack Developer</p>
-
-        <div class="contact-details">
-          <div class="contact-item">
-            <i class="fas fa-phone"></i>
-            <span>+1 (857) 339-8475</span>
+    <!-- <section id="about" class="about">
+      <div class="container">
+        <div class="about__content">
+          <div class="about__image">
+            <img src="assets/profile.jpg" alt="Anagha Godbole">
           </div>
-          <div class="contact-item">
-            <i class="fas fa-envelope"></i>
-            <span>godbole.ana@northeastern.edu</span>
-          </div>
-          <div class="contact-item">
-            <i class="fas fa-map-marker-alt"></i>
-            <span>Boston, MA</span>
+          <div class="about__text">
+            <h2 class="section-title">ABOUT ME</h2>
+            <p>
+              I'm a Software Engineer with experience in building scalable applications in agile environments. 
+              Currently pursuing Master in Information Systems at Northeastern University. Prior to this, 
+              I have 4 years of experience as a Software Engineer in full-stack development, delivering 
+              impactful solutions across industries like e-commerce and automotive.
+            </p>
+            <p>
+              My expertise includes working with technologies such as JavaScript (React, Angular, Node.js), 
+              Ruby on Rails, Java, Django and Python. I have strong skills in data structures, algorithms, 
+              cloud technologies (AWS, Docker, Kubernetes), and database management systems (PostgreSQL, MySQL).
+            </p>
+            <p>
+              My hands-on experience includes creating seamless and responsive UI components, developing 
+              middleware SDKs for efficient backend integration, building scalable RESTful APIs, and optimizing 
+              application performance to deliver exceptional user experiences.
+            </p>
+            
+            <div class="skills">
+              <h3>TECHNICAL SKILLS</h3>
+              <div class="skills-grid">
+                <div class="skill-category">
+                  <h4>Languages</h4>
+                  <ul>
+                    <li>JavaScript (ES6)</li>
+                    <li>TypeScript</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>Ruby</li>
+                    <li>HTML5/CSS</li>
+                  </ul>
+                </div>
+                
+                <div class="skill-category">
+                  <h4>Frameworks & Libraries</h4>
+                  <ul>
+                    <li>React</li>
+                    <li>Angular</li>
+                    <li>Node.js</li>
+                    <li>Ruby on Rails</li>
+                    <li>Django</li>
+                    <li>TailwindCSS</li>
+                  </ul>
+                </div>
+                
+                <div class="skill-category">
+                  <h4>Databases & Tools</h4>
+                  <ul>
+                    <li>PostgreSQL</li>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>Redis</li>
+                    <li>Git/GitHub</li>
+                    <li>Docker/Kubernetes</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+    </section> -->
 
-        <div class="social-links">
-          <a
-            href="https://www.linkedin.com/in/anaghagodbole/"
-            target="_blank"
-            class="social-icon"
-            ><i class="fab fa-linkedin"></i
-          ></a>
-          <a
-            href="https://github.com/anaghagodbole"
-            target="_blank"
-            class="social-icon"
-            ><i class="fab fa-github"></i
-          ></a>
+    <!-- Creative Technical Skills Section with Interactive Tags -->
+<section id="about" class="about">
+  <div class="container">
+    <div class="about__content">
+      <div class="about__image">
+        <img src="assets/profile-picture.jpg" alt="Anagha Godbole">
+      </div>
+      <div class="about__text">
+        <h2 class="section-title">ABOUT ME</h2>
+        <p>
+          I'm a Software Engineer with experience in building scalable applications in agile environments. 
+          Currently pursuing Master in Information Systems at Northeastern University. Prior to this, 
+          I have 4 years of experience as a Software Engineer in full-stack development, delivering 
+          impactful solutions across industries like e-commerce and automotive.
+        </p>
+        <p>
+          My expertise includes working with technologies such as JavaScript (React, Angular, Node.js), 
+          Ruby on Rails, Java, Django and Python. I have strong skills in data structures, algorithms, 
+          cloud technologies (AWS, Docker, Kubernetes), and database management systems (PostgreSQL, MySQL).
+        </p>
+        <p>
+          My hands-on experience includes creating seamless and responsive UI components, developing 
+          middleware SDKs for efficient backend integration, building scalable RESTful APIs, and optimizing 
+          application performance to deliver exceptional user experiences.
+        </p>
+        
+        <!-- Creative Technical Skills Section -->
+        <!-- <div class="skills">
+          <h3>TECHNICAL SKILLS</h3>
+          
+          <div class="skills-container">
+            <div class="skill-category">
+              <h4>Languages</h4>
+              <div class="skill-tags">
+                <span class="skill-tag intermediate"><i class="fab fa-js"></i>JavaScript (ES6)</span>
+                <span class="skill-tag intermediate"><i class="fab fa-js"></i>TypeScript</span>
+                <span class="skill-tag intermediate"><i class="fab fa-python"></i>Python</span>
+                <span class="skill-tag intermediate"><i class="fab fa-java"></i>Java</span>
+                <span class="skill-tag intermediate"><i class="fas fa-gem"></i>Ruby</span>
+                <span class="skill-tag beginner"><i class="fab fa-html5"></i>HTML5/CSS</span>
+              </div>
+            </div>
+            
+            <div class="skill-category">
+              <h4>Frameworks & Libraries</h4>
+              <div class="skill-tags">
+                <span class="skill-tag advanced"><i class="fab fa-react"></i>React</span>
+                <span class="skill-tag advanced"><i class="fab fa-angular"></i>Angular</span>
+                <span class="skill-tag advanced"><i class="fab fa-node-js"></i>Node.js</span>
+                <span class="skill-tag intermediate"><i class="fas fa-train"></i>Ruby on Rails</span>
+                <span class="skill-tag intermediate"><i class="fab fa-python"></i>Django</span>
+                <span class="skill-tag intermediate"><i class="fab fa-css3"></i>TailwindCSS</span>
+              </div>
+            </div>
+            
+            <div class="skill-category">
+              <h4>Databases & Tools</h4>
+              <div class="skill-tags">
+                <span class="skill-tag advanced"><i class="fas fa-database"></i>PostgreSQL</span>
+                <span class="skill-tag intermediate"><i class="fas fa-database"></i>MySQL</span>
+                <span class="skill-tag intermediate"><i class="fas fa-leaf"></i>MongoDB</span>
+                <span class="skill-tag intermediate"><i class="fas fa-bolt"></i>Redis</span>
+                <span class="skill-tag advanced"><i class="fab fa-github"></i>Git/GitHub</span>
+                <span class="skill-tag advanced"><i class="fab fa-docker"></i>Docker/Kubernetes</span>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+<section id="experience" class="experience">
+  <div class="container">
+    <h2 class="section-title">WORK EXPERIENCE</h2>
+    
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-marker">
+          <span class="date">2022-2024</span>
+        </div>
+        <div class="timeline-content">
+          <h3 class="company">Globant</h3>
+          <p class="role">Software Engineer</p>
+          <ul class="achievements">
+            <li>Revamped global website for leading automotive company using React and TypeScript</li>
+            <li>Developed middleware SDK using Docker for API integrations</li>
+            <li>Migrated monolithic application to Micro-Frontend architecture</li>
+            <li>Devised interactive AI chatbot using React, Node.js, and DialogFlow</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-marker">
+          <span class="date">2021-2022</span>
+        </div>
+        <div class="timeline-content">
+          <h3 class="company">Impelsys</h3>
+          <p class="role">Software Engineer</p>
+          <ul class="achievements">
+            <li>Built scalable Cloud-based SaaS e-learning platform using Angular and Django</li>
+            <li>Developed microservices using Django and deployed on AWS ECS</li>
+            <li>Integrated OAuth 2.0 and JWT-based authentication</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-marker">
+          <span class="date">2019-2021</span>
+        </div>
+        <div class="timeline-content">
+          <h3 class="company">Maverick Labs</h3>
+          <p class="role">Software Development Engineer</p>
+          <ul class="achievements">
+            <li>Engineered dashboard application using Angular and PostgreSQL</li>
+            <li>Designed RESTful APIs using Ruby on Rails with Redis caching</li>
+            <li>Implemented recurring job scheduling with Sidekiq-Cron</li>
+          </ul>
         </div>
       </div>
     </div>
+  </div>
+</section>
+    <section id="work" class="work">
+      <div class="container">
+        <h2 class="section-title">PROJECTS</h2>
+        
+        <div class="project-grid">          
+          <div class="project-item">
+            <a href="./project-automotive.html" class="project-link">
+              <div class="project-image">
+                <img src="./assets/image.png" alt="Automotive Website Revamp">
+              </div>
+              <div class="project-details">
+                <h3 class="project-title">INFINITI Website</h3>
+                <p class="project-description">Revamped global website for leading automotive company using React and TypeScript, resulting in 25% increased site visits</p>
+                <div class="project-tags">
+                  <span>REACT</span>
+                  <span>TYPESCRIPT</span>
+                  <span>PERFORMANCE OPTIMIZATION</span>
+                </div>
+              </div>
+            </a>
+          </div>
 
-    <section id="about" class="grey-theme">
-      <div class="sub-section">
-        <h2 class="section-title">About Me</h2>
-        <div class="about-content">
-          <div class="about-text">
-            <p>
-              I’m Anagha Godbole, currently pursuing Master in Information
-              Systems at Northeastern University. Prior to this, I have 4 years
-              of experience as a Software Engineer in full-stack development,
-              delivering impactful solutions across industries like e-commerce
-              and automotive. My expertise includes working with technologies
-              such as JavaScript (React, Angular, Node.js), Ruby on Rails, Java,
-              Django and Python. I have strong skills in data structures,
-              algorithms, cloud technologies (AWS, Docker, Kubernetes), and
-              database management systems (PostgreSQL, MySQL). My hands-on
-              experience includes creating seamless and responsive UI
-              components, developing middleware SDKs for efficient backend
-              integration, building scalable RESTful APIs.
-            </p>
+          <div class="project-item">
+            <a href="project-elearning.html" class="project-link">
+              <div class="project-image">
+                <img src="./assets/aha1.png" alt="AHA E-learning Platform">
+              </div>
+              <div class="project-details">
+                <h3 class="project-title">AHA E-learning Platform</h3>
+                <p class="project-description">Interactive e-learning platform with collaboration features, subscription models and completion certificates</p>
+                <div class="project-tags">
+                  <span>ANGULAR</span>
+                  <span>DJANGO</span>
+                  <span>AWS</span>
+                </div>
+              </div>
+            </a>
           </div>
-          <aside class="about-skills-aside">
-            <h3>Professional Skills Highlight</h3>
-            <div class="skills-highlights">
-              <ul>
-                <li>Full-Stack Development</li>
-                <li>JavaScript</li>
-                <li>Ruby on Rails</li>
-                <li>Node.js</li>
-                <li>Java</li>
-                <li>React</li>
-                <li>API Development</li>
-              </ul>
-            </div>
-          </aside>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="white-theme">
-      <div class="sub-section">
-        <h2 class="section-title">Projects</h2>
-        <div class="projects-grid">
-          <div class="project-card">
-            <h3>INFINITI Website Revamp</h3>
-            <p>
-              Redesigned a global automotive website, resulting in a 25%
-              increase in site traffic and 10% rise in online orders. Managed
-              complex design requirements and tight project timelines.
-            </p>
-            <div class="project-tags">
-              <span>Web Development</span>
-              <span>Performance Optimization</span>
-            </div>
+          
+          <div class="project-item">
+            <a href="project-virtuo.html" class="project-link">
+              <div class="project-image">
+                <img src="./assets/virtuo.png" alt="Virtuo CX Home Concierge">
+              </div>
+              <div class="project-details">
+                <h3 class="project-title">Virtuo</h3>
+                <p class="project-description">Customer experience platform for homebuilders, mortgage lenders, and real estate brokers</p>
+                <div class="project-tags">
+                  <span>REACT</span>
+                  <span>NODE.JS</span>
+                  <span>MONGODB</span>
+                </div>
+              </div>
+            </a>
           </div>
-          <div class="project-card">
-            <h3>I-SEE</h3>
-            <p>
-              Built an Android app for visually impaired users navigate
-              obstacles in daily life. Developed Speed Dial for quick contact
-              access, and SOS for emergency assistance with real-time location
-              sharing
-            </p>
-            <div class="project-tags">
-              <span>Android Development</span>
-              <span>Java</span>
-              <span>Firebase</span>
-            </div>
-          </div>
-          <div class="project-card">
-            <h3>E-commerce Platform</h3>
-            <p>
-              Built a robust e-commerce platform using Ruby on Rails with
-              advanced features like real-time inventory management and
-              personalized recommendation systems.
-            </p>
-            <div class="project-tags">
-              <span>Ruby on Rails</span>
-              <span>E-commerce</span>
-            </div>
+          
+          <div class="project-item">
+            <a href="project-isee.html" class="project-link"> 
+              <div class="project-image">
+                <img src="assets/projects/isee-app.jpg" alt="I-SEE Android App">
+              </div>
+              <div class="project-details">
+                <h3 class="project-title">I-SEE Android App</h3>
+                <p class="project-description">Conceptualized and developed an Android app for visually impaired users using open-source APIs like Firebase Vision Text Recognizer and TextToSpeech API, integrating features such as Read for Me, Magnify, Speed Dial, and SOS.</p>
+                <div class="project-tags">
+                  <span>ANDROID</span>
+                  <span>JAVA</span>
+                  <span>FIREBASE</span>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="testimonials" class="grey-theme">
-      <div class="sub-section">
-        <h2 class="section-title">Testimonials</h2>
-        <div class="testimonials-grid">
-          <article class="testimonial-card">
-            <p>
-              "Anagha is a dedicated professional who consistently delivers
-              high-quality results with remarkable attention to detail. Her
-              technical expertise and problem-solving skills are exceptional."
-            </p>
-            <div class="testimonial-author">
-              <span>- Saad Ulde, Tech Manager</span>
+    <!-- <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">GET IN TOUCH</h2>
+        
+        <div class="contact__content">
+          <div class="contact__info">
+            <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+            
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:anaghagodbole10@gmail.com">anaghagodbole10@gmail.com</a>
+              </div>
+              
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <a href="tel:+18573398475">857-339-8475</a>
+              </div>
+              
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Boston, MA</span>
+              </div>
             </div>
-          </article>
-          <article class="testimonial-card">
-            <p>
-              "Working with Anagha has been a pleasure. Her innovative approach
-              to software development and ability to quickly adapt to new
-              technologies sets her apart."
-            </p>
-            <div class="testimonial-author">
-              <span>- Vishakha Damle, Technical Lead</span>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="gallery" class="white-theme">
-      <div class="sub-section">
-        <h2 class="section-title">Gallery</h2>
-        <div class="gallery-grid">
-          <div class="gallery-item">
-            <img src="assets/award.png" alt="Project 1" />
-            <div class="gallery-overlay">
-              <h3>Globant - Pat On the Back Award</h3>
-            </div>
-          </div>
-          <div class="gallery-item">
-            <img src="assets/Portfolio-investment.jpeg" alt="Project 2" />
-            <div class="gallery-overlay">
-              <h3>Investment Portfolio Project</h3>
+            
+            <div class="social-links">
+              <a href="https://linkedin.com/in/anaghagodbole" target="_blank" class="social-link">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/anaghagodbole" target="_blank" class="social-link">
+                <i class="fab fa-github"></i>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </section>
+  </main>
 
-    <section class="experience-section grey-theme">
-      <div class="sub-section">
-        <h2 class="section-title">Professional Experience</h2>
-        <table class="experience-table">
-          <thead>
-            <tr>
-              <th>Company</th>
-              <th>Role</th>
-              <th>Duration</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Globant</td>
-              <td>Software Engineer</td>
-              <td>2022 - 2024</td>
-            </tr>
-            <tr>
-              <td>Impelsys</td>
-              <td>Software Engineer</td>
-              <td>2021 - 2022</td>
-            </tr>
-            <tr>
-              <td>Maverick Labs</td>
-              <td>Software Development Engineer</td>
-              <td>2019 - 2021</td>
-            </tr>
-          </tbody>
-        </table>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Anagha Godbole. All Rights Reserved.</p>
+    </div>
+  </footer> -->
+
+  <footer id="site-footer" class="site-footer">
+    <div class="container">
+      <h3 class="footer-heading">Let's connect</h3>
+      
+      <div class="social-links-footer">
+        <a href="mailto:anaghagodbole10@gmail.com" class="social-link-footer" title="Email">
+          <i class="far fa-envelope"></i>
+        </a>
+        
+        <a href="https://linkedin.com/in/anaghagodbole" target="_blank" class="social-link-footer" title="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        
+        <a href="https://github.com/anaghagodbole" target="_blank" class="social-link-footer" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
       </div>
-    </section>
+      
+      <p class="copyright">© Designed by Anagha Godbole in 2025</p>
+    </div>
+  </footer>
 
-    <section id="contact" class="contact-section white-theme">
-      <div class="sub-section">
-        <h2 class="section-title">Contact Me</h2>
-        <form class="contact-form">
-          <div class="form-group">
-            <label for="name">Full Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              required
-              placeholder="Enter your full name"
-            />
-          </div>
-
-          <div class="form-group">
-            <label for="email">Email Address</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              required
-              placeholder="Enter your email"
-            />
-          </div>
-
-          <div class="form-group">
-            <label for="phone">Phone Number</label>
-            <input
-              type="tel"
-              id="phone"
-              name="phone"
-              placeholder="Enter your phone number"
-            />
-          </div>
-
-          <div class="form-group">
-            <label for="subject">Subject</label>
-            <select id="subject" name="subject">
-              <option value="">Select a subject</option>
-              <option value="hiring">Job Opportunity</option>
-              <option value="collaboration">Project Collaboration</option>
-              <option value="consulting">Consulting</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label for="message">Your Message</label>
-            <textarea
-              id="message"
-              name="message"
-              rows="5"
-              required
-              placeholder="Write your message here"
-            ></textarea>
-          </div>
-
-          <div class="form-group">
-            <label>Preferred Contact Method</label>
-            <div class="radio-group">
-              <input
-                type="radio"
-                id="contact-email"
-                name="contact-method"
-                value="email"
-              />
-              <label for="contact-email">Email</label>
-
-              <input
-                type="radio"
-                id="contact-phone"
-                name="contact-method"
-                value="phone"
-              />
-              <label for="contact-phone">Phone</label>
-            </div>
-          </div>
-          <button type="submit" class="submit-btn">Send Message</button>
-        </form>
-      </div>
-    </section>
-
-    <footer class="site-footer grey-theme">
-      <div class="sub-section">
-        <div class="footer-bottom">
-          <p>&copy; 2025 Anagha Godbole. All Rights Reserved.</p>
-        </div>
-      </div>
-    </footer>
-  </body>
+  <script src="js/main.js"></script>
+</body>
 </html>
