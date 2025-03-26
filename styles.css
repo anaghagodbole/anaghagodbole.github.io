@@ -522,6 +522,11 @@ p {
   padding: var(--spacing-4xl) 0;
 }
 
+.experience .container{
+  padding-left: var(--spacing-2xl);
+  padding-right:  var(--spacing-2xl);
+}
+
 .timeline {
   position: relative;
   max-width: 800px;
