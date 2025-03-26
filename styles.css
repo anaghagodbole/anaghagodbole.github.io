@@ -1673,3 +1673,10 @@ p {
 .slide.active {
   animation: fadeIn 0.6s ease-in-out;
 }
+
+.cropped-video {
+  width: 100%;
+  height: 100%;  /* Ensure the video covers the container */
+  object-fit: cover;  /* Ensures the video fills the container while maintaining aspect ratio */
+  object-position: top;  /* Crop from the top */
+}
